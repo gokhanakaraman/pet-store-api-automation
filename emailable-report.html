@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">19</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">30,798</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">services.petStore.FindByStatusTest</td><td><a href="#m0">requiredFieldStatusTest</a></td><td rowspan="1">1630796183726</td><td rowspan="1">849</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="13">services.petStore.AddPetTest</td><td><a href="#m1">emptyCategoryTest</a></td><td rowspan="1">1630796171642</td><td rowspan="1">10888</td></tr><tr class="passedeven"><td><a href="#m2">emptyIdTest</a></td><td rowspan="1">1630796171641</td><td rowspan="1">7177</td></tr><tr class="passedeven"><td><a href="#m3">emptyNameTest</a></td><td rowspan="1">1630796171641</td><td rowspan="1">4547</td></tr><tr class="passedeven"><td><a href="#m4">emptyPhotoUrlTest</a></td><td rowspan="1">1630796171641</td><td rowspan="1">2791</td></tr><tr class="passedeven"><td><a href="#m5">emptyStatusTest</a></td><td rowspan="1">1630796171642</td><td rowspan="1">9867</td></tr><tr class="passedeven"><td><a href="#m6">emptyTagsTest</a></td><td rowspan="1">1630796171641</td><td rowspan="1">5447</td></tr><tr class="passedeven"><td><a href="#m7">happyPathTest</a></td><td rowspan="1">1630796171641</td><td rowspan="1">8015</td></tr><tr class="passedeven"><td><a href="#m8">invalidCategoryTest</a></td><td rowspan="1">1630796171642</td><td rowspan="1">8877</td></tr><tr class="passedeven"><td><a href="#m9">invalidIdTest</a></td><td rowspan="1">1630796171641</td><td rowspan="1">3653</td></tr><tr class="passedeven"><td><a href="#m10">invalidNameTest</a></td><td rowspan="1">1630796171641</td><td rowspan="1">6332</td></tr><tr class="passedeven"><td><a href="#m11">invalidPhotoUrlTest</a></td><td rowspan="1">1630796171641</td><td rowspan="1">1927</td></tr><tr class="passedeven"><td><a href="#m12">invalidStatusTest</a></td><td rowspan="1">1630796171642</td><td rowspan="1">12083</td></tr><tr class="passedeven"><td><a href="#m13">invalidTagTest</a></td><td rowspan="1">1630796171640</td><td rowspan="1">1076</td></tr><tr class="passedodd"><td rowspan="3">services.petStore.FindByStatusTest</td><td><a href="#m14">happyPathTest</a></td><td rowspan="1">1630796183726</td><td rowspan="1">2162</td></tr><tr class="passedodd"><td><a href="#m15">invalidStatusTest</a></td><td rowspan="1">1630796183726</td><td rowspan="1">3795</td></tr><tr class="passedodd"><td><a href="#m16">invalidStatusTypeTest</a></td><td rowspan="1">1630796183726</td><td rowspan="1">2976</td></tr><tr class="passedeven"><td rowspan="3">services.petStore.FindPetTest</td><td><a href="#m17">emptyIdTest</a></td><td rowspan="1">1630796156973</td><td rowspan="1">13655</td></tr><tr class="passedeven"><td><a href="#m18">happyPathTest</a></td><td rowspan="1">1630796156974</td><td rowspan="1">14664</td></tr><tr class="passedeven"><td><a href="#m19">invalidIdTest</a></td><td rowspan="1">1630796156969</td><td rowspan="1">12755</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">services.petStore.FindByStatusTest#requiredFieldStatusTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: (a collection containing &quot;&quot;)
+     but: a collection containing &quot;&quot; 
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at services.petStore.FindByStatusTest.requiredFieldStatusTest(FindByStatusTest.java:73)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">services.petStore.AddPetTest#emptyCategoryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">services.petStore.AddPetTest#emptyIdTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">services.petStore.AddPetTest#emptyNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">services.petStore.AddPetTest#emptyPhotoUrlTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">services.petStore.AddPetTest#emptyStatusTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">services.petStore.AddPetTest#emptyTagsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">services.petStore.AddPetTest#happyPathTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">services.petStore.AddPetTest#invalidCategoryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">services.petStore.AddPetTest#invalidIdTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">services.petStore.AddPetTest#invalidNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">services.petStore.AddPetTest#invalidPhotoUrlTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">services.petStore.AddPetTest#invalidStatusTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">services.petStore.AddPetTest#invalidTagTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">services.petStore.FindByStatusTest#happyPathTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">services.petStore.FindByStatusTest#invalidStatusTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">services.petStore.FindByStatusTest#invalidStatusTypeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">services.petStore.FindPetTest#emptyIdTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">services.petStore.FindPetTest#happyPathTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">services.petStore.FindPetTest#invalidIdTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

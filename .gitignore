@@ -16,3 +16,6 @@ TEST*.xml
 .idea/
 
 *.iml
+
+
+*.txt
